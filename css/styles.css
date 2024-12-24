@@ -37,6 +37,10 @@ body{
 
 
 }
+#info-main-body{
+    font-weight: 100;
+    color: white;
+}
 ul{
     list-style-type: none;
     display: flex;
@@ -60,7 +64,7 @@ styling for section 2 begins here */
    
 }
 .info-image{
-    height: 100px;
+    height: 75px;
     width: 100px;
 }
 
@@ -81,6 +85,8 @@ styling for section 2 begins here */
 }
 .message{
     display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
     justify-content: center;
     background-color: gray;
     flex-direction: column;
@@ -129,7 +135,17 @@ button{
     border-radius: 10px;
     color: white;
     font-size: 16px;
-    font-weight: 400px;
+    font-weight:900;
     border-color: white;
+    border-width: 2px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    padding: 50px;
+    color: white;
+    font-size: 16px;
+    font-weight: 900px;
 
 }
