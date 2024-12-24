@@ -29,6 +29,7 @@ body{
     width: 524px;
     height: 240px;
 }
+
 .container{
     display: flex;
     padding-left: 80px;
@@ -52,6 +53,83 @@ h1{
     width: 200px;
     color: white;
 }
-p{
+/* 
+styling for section 2 begins here */
+.body{
+    text-align: center;
+   
+}
+.info-image{
+    height: 100px;
+    width: 100px;
+}
+
+.info{
+    width: 120px;
+}
+.container-2{
+    display: flex;
+    gap: 52px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.title{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-weight: 900px;
+    font-size: 36px;
+}
+.message{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    flex-direction: column;
+    align-items: center;
+}
+.message-content{
+    width: 650x;
+    font-size: 24px;
+    padding-left: 320px;
+    padding-right: 300px;
+    font-family: Helvetica;
     
+}
+h2{
+    flex-direction: end;
+}
+.container-3{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container-4{
+   width: 80%;
+    background-color: blue;
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.h2{
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+}
+.sign-up{
+    color: lightgray;
+}
+button{
+    width: 100px;
+    height: 35px;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400px;
+    border-color: white;
+
 }
